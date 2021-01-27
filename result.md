@@ -1,0 +1,1 @@
+The threds are not executed simultaneously, and i end up with being different each time the program is run. This problem is known as lost updates, where two transactions tries to change the same data item, resulting in one overwriting the other before the data value has been updated.  
